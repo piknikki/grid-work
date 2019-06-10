@@ -5,6 +5,8 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!--    Responsive stuff -->
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,11 +39,26 @@
 
 </head>
 <body>
-<h1><i class="far fa-heart"></i>This is the title</h1>
-<h2>And a subtitle</h2>
-<p>Plus a paragraph that is all about grids and how awesomely awesome they are. Quick, easy, <span class="ampersand">&</span> flexible! </p>
 
-<div class="section group">
+<nav id="nav">
+    <ul>
+        <li><a href="/">Intro</a></li>
+        <li><a class="active" href="/">Generator</a></li>
+        <li><a href="/">Layouts</a></li>
+        <li><a href="/">Go Further</a></li>
+        <li><a href="/">Playground</a></li>
+        <li><a href="/" class="button"><i class="fa fa-download"></i> Download</a></li>
+    </ul>
+
+</nav>
+
+<div class="title">
+    <h1><i class="far fa-heart"></i>This is the title</h1>
+    <h2>And a subtitle</h2>
+    <p>Plus a paragraph that is all about grids and how awesomely awesome they are. Quick, easy, <span class="ampersand">&</span> flexible! </p>
+</div>
+
+<div class="section group top-section">
     <div class="col span_1_of_3">
         This is column 1
     </div>
@@ -52,5 +69,30 @@
         This is column 3
     </div>
 </div>
+
+<div class="section group middle-section">
+    <div class="col span_1_of_3">
+        This is column 1 of the middle section
+    </div>
+    <div class="col span_1_of_3">
+        This is column 2 of the middle section
+    </div>
+    <div class="col span_1_of_3">
+        This is column 3 of the middle section
+    </div>
+</div>
+
+<div class="section group bottom-section">
+    <div class="col span_1_of_3">
+        This is column 1 of the bottom section
+    </div>
+    <div class="col span_1_of_3">
+        This is column 2 of the bottom section
+    </div>
+    <div class="col span_1_of_3">
+        This is column 3 of the bottom section
+    </div>
+</div>
+
 </body>
 </html>
