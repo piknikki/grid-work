@@ -7,7 +7,7 @@
 
 /* BASIC PAGE SETUP ============================================================================= */
 
-body {margin : 0 auto;padding : 0;font : 100%/1.4 'Open Sans', 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;color : #000;text-align: center;background: #fff url(/images/lightbg.png) left top;}
+body {margin : 0 auto;padding : 0;font : 100%/1.4 'Open Sans', 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;color : #000;text-align: center;background: #fff url(../images/lightbg.png) left top;}
 
 button,
 input,
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family:  'Oswald', MuseoSlab300, 'Open Sans', 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
     font-weight : normal;
     margin-top: 10px;
-    font-weight:300;
+
 }
 
 h1 {
@@ -387,7 +387,7 @@ textarea:invalid {
 
 #headcontainer {
     width: 100%;
-    background: url(/images/headerback.png) no-repeat center 20px;
+    background: url(../images/headerback.png) no-repeat center 20px;
 }
 
 header {

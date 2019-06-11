@@ -2,16 +2,25 @@
 /*font-family: 'Oswald', sans-serif;*/
 /*font-family: 'Goudy Bookletter 1911', serif;*/
 
-body {
-    background: url("../images/lightbg.png");
-}
 
 #nav {
     background: #e1e0dc url("../images/lightbg.png");
     box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
 }
-.title {
+div#title > h1 {
     padding-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+}
+
+
+h2 {
+    font-size: 29px;
+}
+
+.ampersand {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 33px;
 }
 
 .top-section {
@@ -32,8 +41,26 @@ body {
     margin: 20px;
 }
 
+.section-intro {
+    text-align: left;
+    padding: 30px;
+}
+
+.bottom-subsection {
+    background: #222;
+    color: #f5f5f5;
+}
+
 .footercontainer {
     background: url("../images/darkbg.png");
+}
+
+h3 {
+    color: #666666;
+}
+
+.footer-subsection {
+    background: #bbbbbb;
 }
 
 /*  SECTIONS  */
@@ -48,7 +75,6 @@ body {
     display: block;
     float:left;
     margin: 1% 0 1% 1.6%;
-    background: pink;
 }
 .col:first-child { margin-left: 0; }
 
