@@ -13,7 +13,8 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Open+Sans|Oswald&display=swap" rel="stylesheet">    <title>Grid-like stuff</title>
-    <link rel="stylesheet" href="href=/maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="./css/html5reset.css">
     <link rel="stylesheet" href="./css/responsivegridsystem.css">
@@ -34,6 +35,7 @@
     <link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="/css/1024.css">
     <link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="/css/768.css">
     <link rel="stylesheet" media="only screen and (max-width: 480px)" href="/css/480.css">
+
 
     <link rel="stylesheet" href="./css/style.css">
 
@@ -65,7 +67,7 @@
     <div class="col span_1_of_3">
         This is column 2
     </div>
-    <div class="col span_1_of_3">
+    <div class="col span_1_of_3 push">
         This is column 3
     </div>
 </div>
@@ -74,7 +76,7 @@
     <div class="col span_1_of_3">
         This is column 1 of the middle section
     </div>
-    <div class="col span_1_of_3">
+    <div class="col span_1_of_3 push">
         This is column 2 of the middle section
     </div>
     <div class="col span_1_of_3">
@@ -83,7 +85,7 @@
 </div>
 
 <div class="section group bottom-section">
-    <div class="col span_1_of_3">
+    <div class="col span_1_of_3 push">
         This is column 1 of the bottom section
     </div>
     <div class="col span_1_of_3">
@@ -92,6 +94,17 @@
     <div class="col span_1_of_3">
         This is column 3 of the bottom section
     </div>
+</div>
+
+<div class="footercontainer">
+    <footer>
+        <div class="section group">
+            <div id="smallprint">
+                <p>Made by Nikki with ♥️, 🧠, 🍩, and ☕.</p>
+            </div>
+        </div>
+
+    </footer>
 </div>
 
 </body>

@@ -17,16 +17,23 @@ body {
 .top-section {
     background: transparent;
     border-bottom: 1px #cccccc solid;
+    margin: 20px;
 }
 
 .middle-section {
     background: rgba(255, 255, 255, 0.33);
     border-bottom: 1px #cccccc solid;
+    margin: 20px;
 }
 
 .bottom-section {
     background: rgba(102, 102, 102, 0.05);
     border-bottom: 1px #cccccc solid;
+    margin: 20px;
+}
+
+.footercontainer {
+    background: url("../images/darkbg.png");
 }
 
 /*  SECTIONS  */
@@ -55,13 +62,23 @@ h1 {
     font-family: 'Goudy Bookletter 1911', serif;
 }
 
-/*!*  GRID OF THREE  *!*/
-/*.span_3_of_3 { width: 100%; }*/
-/*.span_2_of_3 { width: 66.13%; }*/
-/*.span_1_of_3 { width: 32.26%; }*/
+.push {
+    visibility: hidden;
+}
 
-/*!*  GO FULL WIDTH BELOW 480 PIXELS *!*/
-/*@media only screen and (max-width: 480px) {*/
-/*    .col {  margin: 1% 0 1% 0%; }*/
-/*    .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }*/
-/*}*/
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    .col {  margin: 1% 0 1% 0%; }
+    .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+@media only screen and (max-width: 480px) {
+    .push {
+        display: none;
+    }
+}
